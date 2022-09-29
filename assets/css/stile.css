@@ -97,6 +97,7 @@ table caption{
 }
 table th{
     background-color: #0088aa;
+    line-height: 1;
 }
 table td{
     text-align: center;
