@@ -1,0 +1,178 @@
+/* IMPOSTAZIONI GENERALI */
+@font-face{
+    font-family: mioFont1;
+    src: url("/assets/webfonts/fa-brands-400.woff"));
+}
+@font-face{
+    font-family: mioFont2;
+    src: url("/\assets/webfonts/fa-regular-400.woff"));
+}
+@font-face{
+    font-family: mioFont3;
+    src: url("/assets/webfonts/fa-solid-900.woff"));
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,body{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+
+
+}
+body > div{
+    width: 500px;
+    margin: 0 auto;
+    background-image: url("/assets/img/sfondo.png");
+    background-size: contain;
+    background-attachment:fixed;
+    padding:30px;
+}
+nav ul{
+    list-style-type: none; 
+ }
+/* HEADER */
+header{
+    background-color: #0088aa;
+    padding:30px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-variant:small-caps;
+    box-shadow: 5px 5px 10px 10px gray;
+    margin-bottom: 40px;
+}
+header p{
+    margin:50px 0;
+    color:white;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color:white;
+
+}
+/* MAIN */
+article h1{
+    font-size:3.2rem;
+    font-weight: 700;
+    margin-bottom:30px;
+}
+main {
+    font-size:1.8rem;
+    background-color:#f3efeae7;
+    padding:20px;
+    box-shadow: 5px 5px 10px 10px gray;
+    margin-bottom: 30px;
+}
+p{
+    margin-bottom: 20px;
+    line-height: 2.2rem;
+}
+h1 + p{
+    
+    color:gray;
+}
+strong{
+    color:#e500fae7;
+    font-weight: 700;
+}
+article ul{
+   
+    margin-left: 40px;  
+    margin-bottom:30px;   
+}
+code{
+    background-color: rgb(158, 157, 157);
+    border-radius: 10px;
+
+}
+ol{
+    margin-left:40px;
+    margin-bottom:30px;
+}
+table caption{
+    font-style: italic;
+}
+table th{
+    background-color: #0088aa;
+}
+table td{
+    text-align: center;
+   
+}
+
+table{
+    margin-bottom:30px;
+    line-height: 4rem;
+    border-bottom: 1px solid #0088aa;
+}
+table tr:nth-child(even){
+    background-color: #c6c9c8;
+}
+iframe{
+    width:460px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+section{
+    background-color: lightgray;
+    padding:30px;
+}
+section h2{
+    text-align: center;
+    margin-bottom:30px;
+    
+}
+section input{
+    width:260px;
+    font-size: 1.8rem;
+    border: 0px solid black;
+    border-bottom: 2px dashed gray;
+}
+section button{
+    font-size: 1.8rem;
+    background-color: #0088aa;
+    color:white;
+    border:none;
+}
+aside h2{
+    font-size:3.2rem;
+    font-weight: 700;
+    margin-bottom:30px;
+    text-align: center;
+}
+aside div{
+    background-color: lightgray;
+    padding:30px;
+    margin-bottom: 30px;
+}
+aside a{
+    color: #0088aa;
+}
+
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer{
+    font-size:1.8rem;
+    text-align:center;
+    background: linear-gradient(#0088aa,#4d4a4a);
+    padding:20px;
+    box-shadow: 5px 5px 10px 10px gray;  
+    color:white;
+    font-variant: small-caps;
+}
+footer a{
+    color:#e500fae7;
+}
